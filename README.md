@@ -24,11 +24,7 @@ npm 包管理器、node模块、包的概念，前后端分离，模板的渲染
 
 - 效果展示
 
-      - 首页
-      ![](http://images.morethink.cn/yehui2.png)
-      - 后台管理
-      ![](http://images.morethink.cn/yehui5.png)
-      - 列表页
-      ![](http://images.morethink.cn/yehui4.png)
-      - romongodb工具使用
-      ![](http://images.morethink.cn/yehui3.png)
+      - 首页 ![](http://images.morethink.cn/yehui2.png)
+      - 后台管理 ![](http://images.morethink.cn/yehui5.png)
+      - 列表页 ![](http://images.morethink.cn/yehui4.png)
+      - romongodb工具使用 ![](http://images.morethink.cn/yehui3.png)
