@@ -1,0 +1,73 @@
+body{
+     font-family: 微软雅黑;
+     font-weight: bold;
+}
+.content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin:20px auto;
+    width:1200px;
+    height:auto;
+   /* background-color:#FBEFCF;*/
+    opacity:0.8;
+}
+h1{
+    float: left;
+    margin-top:55px;
+    color:#333;
+}
+.image{
+    float: left;
+    width:160px;
+    height:80px;
+    background-image: url('../images/picture.jpg');
+    background-repeat: no-repeat;
+    background-size:10em auto;
+}
+.listinfo{
+    padding:10px 0px;
+    margin-top:150px;
+    font-size:18px;  
+    list-style:none;
+}
+.listinfo li{
+    float: left;
+    margin-left:0px 40px;
+    padding:10px 0 10px 10px;
+    width:150px;
+    height:20px;
+    text-align: center;
+    line-height:20px;
+    color: #333;
+    border: 1px solid #ccc;
+    background-color:#FBEFCF;
+}
+.listinfo .look,.listinfo .update, .listinfo .add, .listinfo .del{
+    cursor:pointer;
+}
+.listinfo1{
+    padding:10px 0px;
+    margin-top:0px;
+    font-size:18px;  
+    list-style:none;
+}
+.listinfo1 li{
+    float: left;
+    margin-left:0px 40px;
+    padding:10px 0 10px 10px;
+    width:150px;
+    height:15px;
+    text-align: center;
+    line-height:20px;
+    color: #333;
+    border: 1px solid #ccc;
+}
+.listinfo1 .look a,.listinfo1 .update a, .listinfo1 .add a, .listinfo1 .del a{
+    cursor:pointer;
+    color: #8C64B1;
+    text-decoration: none;
+}
+.listinfo1 .del a{
+    color:red;
+}

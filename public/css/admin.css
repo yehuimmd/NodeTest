@@ -1,0 +1,69 @@
+   body{
+	    	 font-family: 微软雅黑;
+	    	 font-weight: bold;
+	    }
+	    .content{
+	    	position: absolute;
+	    	left: 0;
+	    	right: 0;
+	    	margin:20px auto;
+	    	width:650px;
+	    	height:auto;
+	    	/*background-color:#FBEFCF;
+	    	opacity:0.8;*/
+	    }
+        h1{
+        	float: left;
+        	margin-top:55px;
+	    	color:#333;
+	    }
+	    .image{
+	    	float: left;
+	    	width:160px;
+	    	height:80px;
+	    	background-image: url('../images/picture.jpg');
+	    	background-repeat: no-repeat;
+	    	background-size:10em auto;
+	    }
+	    .bookinfo{
+	        margin-top:180px;
+	        margin-left:0px;
+	        font-size:20px;
+	        color: #333;
+	    }
+	    .bookinfo input{
+            margin-left:40px;
+	    }
+	    .bookinfo1 input{
+            margin-left:40px;
+	    }
+	    .bookinfo1,.bookinfo2{
+	    	margin-top:30px;
+	        margin-left:0px;
+	        font-size:20px;
+	        color: #333;
+	    }
+	    input{
+	    	 width:350px;
+	    	 height:25px;
+	    	 border: 1px solid #ccc;
+	    	 border-radius: 5px;
+	    }
+	    .butto{
+	    	margin-top:50px;
+	    	margin-left:100px;
+	    	width: 350px;
+	    	height: 35px;
+	    	border-radius: 5px;
+	    	text-align: center;
+	    	line-height:35px;
+	    	color:#666;
+	    	font-size:20px;
+	    	background-color: #FBEFCF;
+	    	cursor: pointer;
+	    }
+	    /*.butto a{
+	    	text-decoration: none;
+	    	color:#666;
+	    	font-size:20px;
+	    }*/

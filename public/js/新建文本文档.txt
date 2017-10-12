@@ -1,0 +1,20 @@
+$(function(){
+    //点击删除按钮
+    $('.del a').click(function(){
+        $.ajax({
+            type: 'DELETE',
+            url: '/list/delete',
+            data: {
+                id: getSearchString('bookid') 
+            },
+            dataType:'json',
+            success: function(data){
+                alert('删除数据成功！')
+            },
+            error: function(){
+                  //console.log(err);
+            }
+        });
+    });
+});
+ 

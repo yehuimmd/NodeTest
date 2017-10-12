@@ -1,0 +1,30 @@
+.bonner{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+    width:800px;
+    height:auto;
+    /*background-color:#E6E6E6;*/
+}
+.content{
+	float: right;
+	margin:0 auto;
+	margin-bottom:40px;
+	width:500px;
+	height:200px;
+}
+.content p{
+	font-family: '微软雅黑';
+	font-size: 16px;
+	font-weight:bold;
+	line-height:30px;
+	color:#999;
+}
+.bonner img{
+	float: left;
+	margin-bottom:40px;
+	width:260px;
+	height:200px;
+	/* background-color:#999;*/
+}
